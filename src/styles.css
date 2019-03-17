@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  background-color: rgba(204, 204, 204, 0.144);
+  padding: 15px;
+}
+
+hr {
+  margin-top: 2em;
+}
+
+.container {
+  width: 70%;
+  margin-left: 15%;
+  min-width: 440px;
+}
+
+.indented {
+  margin: 10px;
+  margin-left: 40px;
+  padding: 10px;
+  padding-left: 15px;
+  background-color: rgba(175, 175, 175, 0.301);
+  border-radius: 5px;
+}
+
+.code {
+  padding: 10px;
+  margin-bottom: 1em;
+  background-color: rgba(204, 204, 204, 0.158);
+  font-family: monospace;
+  font-size: 1.1em;
+  white-space: pre-wrap;
+}
+
+.copy {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+}
+
+li {
+  list-style: none;
+}
+
+pre {
+  font-size: 1.3em;
+  background-color: rgba(1, 59, 70, 0.11);
+}
+
+.uppercase > * {
+  text-transform: uppercase;
+}
